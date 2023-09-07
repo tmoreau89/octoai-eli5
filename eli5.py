@@ -16,7 +16,7 @@ def eli5(paragraph):
         },
         {
         "role": "user",
-        "content": "Re-write to make it easy to understand for a 5 year old: {}".format(paragraph)
+        "content": "Re-write for a 5 year old to understand: {}".format(paragraph)
         }
     ],
     "stream": False,
